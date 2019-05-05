@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.0rem;
+    font-size: x.xrem;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
@@ -24,7 +24,7 @@ h2 {
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: 1000px;
+    max-width: 100px;
 }
 
 header, footer, footer a {
