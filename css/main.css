@@ -10,14 +10,12 @@ body {
 h1 {
     font-size: 2.5rem;
     color: #000000;
-    padding: 150px;
 }
 
 h2 {
     font-size: 2.0rem;
     text-align: center;
     border-bottom: 1px solid #bbb;
-    padding: 150px;
 }
 
 header, main, footer {
@@ -36,7 +34,6 @@ header img {
     width: 300px;
     height: auto;
     float: right;
-    padding: 150px;
 }
 
 footer {
