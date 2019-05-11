@@ -9,7 +9,7 @@ body {
 
 h1 {
     font-size: 2.5rem;
-    color: whitesmoke;
+    color: #ffffff;
 }
 
 h2 {
@@ -27,7 +27,7 @@ header, main, footer {
 header, footer, footer a {
     text-align: center;
     background-color: #AEECEF;
-    color: whitesmoke;
+    color: #ffffff;
 }
 
 header img {
