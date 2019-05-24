@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
    display: block;
   }
   
-.dropdown-content a:hover {background-color: #ffffff;}
+.dropdown-content a:hover {background-color: #157a6e;}
   
 .dropdown:hover .dropdown-content {display: block;}
   
