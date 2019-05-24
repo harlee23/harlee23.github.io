@@ -2,7 +2,35 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle' sans-serif;
-    font-size: ;
-    color: ;
-    text align: ;
+    font-size: 2em ;
+    color: #157a6e ;
+    text align: left ;
 }
+
+nav {
+    background-color: #157a6e;
+    padding: 1em;
+    margin-top: -200px;
+  }
+
+  nav a {
+    color: #ffffff;
+    line-height: 2em;
+    padding: 1em 1em;
+    text-decoration: none;
+  }
+
+  nav li {
+    font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+    font-size: 1.5em;
+    display: inline-block;
+    padding-left: 175px;
+    list-style-type: none;
+  }
+
+  nav a:hover {
+   background-color: #849483;
+   color: #ffffff;
+   border-radius: 5px;
+   box-shadow: 5px 5px 5px black;
+   }
