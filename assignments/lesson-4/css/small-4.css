@@ -21,12 +21,12 @@ h1, h2, h3, h4, h5, h6 {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: 157a6e;
+    background-color: #157a6e;
     min-width: 160px;
   }
   
 .dropdown-content a {
-    color:#ffffff;
+    color:#157a6e;
     padding: 12px 16px;
    display: block;
   }
