@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=News+Cycle|Open+Sans+Condensed:300|Roboto+Condensed');
 
-.leftcol, .rightcol {
-    max-width: 48%;
-    flex: 1 0 15em;
-    padding: 10px;
-  }  
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle' sans-serif;
     font-size: 2em ;
