@@ -25,12 +25,12 @@ header {
   vertical-align: bottom;
 }
 .menu {
-  text-decoration: none;
+  list-style-type: none;
   display: block;
   text-align: center;
   background-color: #157a6e;
   font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
-  font-size: .5em;
+  font-size: 1em;
   color: white;
 }
 
