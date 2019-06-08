@@ -29,8 +29,9 @@ header {
   display: block;
   text-align: center;
   background-color: #157a6e;
-  color: white;
   font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+  font-size: .5em;
+  color: white;
 }
 
 img {
