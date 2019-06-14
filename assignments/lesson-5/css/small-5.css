@@ -47,4 +47,15 @@ img {
     width: 65px;
     height: 65px;
   }
-  
+
+.herodiv {margin: 10px auto;position: relative;}
+
+.stats {
+	float: left;
+	position: absolute;
+	top: 25px;
+	right: 50px;
+	background-color:#849483;
+	border: 2px solid #000;
+	padding: 1.5rem;
+}
