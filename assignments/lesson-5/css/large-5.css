@@ -76,4 +76,10 @@ img {
     width: 65px;
     height: 65px;
   }
+
+  .leftcol, .rightcol {
+    max-width: 48%;
+    flex: 1 0 15em;
+    padding: 10px;
+  }
   
