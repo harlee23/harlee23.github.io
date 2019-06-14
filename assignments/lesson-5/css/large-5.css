@@ -44,7 +44,7 @@ ul {
 }
   
 li {
-    float: left;
+    display: inline;
 }
   
 li a {
