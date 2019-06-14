@@ -93,7 +93,10 @@ img {
       padding: 1em;
   }
 
-.herodiv {margin: 10px auto;position: relative;}
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+}
 
 .stats {
 	float: left;
@@ -101,6 +104,6 @@ img {
 	top: 25px;
 	right: 50px;
 	background-color:#849483;
-	border: 2px solid #000;
+	color: #ffffff;
 	padding: 1.5rem;
 }
