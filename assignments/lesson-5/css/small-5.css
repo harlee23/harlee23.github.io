@@ -38,7 +38,7 @@ header {
     text-align: center; 
 }
 .menu li:first-child { 
-    display: block;
+    display: inline-block;
 }
 .menu li { 
     display: none;
