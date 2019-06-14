@@ -37,12 +37,12 @@ header {
   padding: 0;
 }
 
-li {
+.menu li {
     display: inline;
     float: left;
 }
 
-a {
+.menu a {
     display: block;
     padding: 8px;
     background-color: #ffffff;
