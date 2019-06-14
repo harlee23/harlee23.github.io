@@ -38,3 +38,13 @@ header {
 img {
     max-width: 100%;
 }
+
+.socialmedia {
+    padding: 15px;
+    float: right;
+  }
+  .icon {
+    width: 65px;
+    height: 65px;
+  }
+  
