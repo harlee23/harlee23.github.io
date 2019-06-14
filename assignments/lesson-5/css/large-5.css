@@ -33,14 +33,10 @@ header {
   font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
   font-size: 1.5em;
   color: white;
-  margin: 0;
-  padding: 0;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: #157a6e;
   }
