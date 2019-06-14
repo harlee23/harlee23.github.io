@@ -38,8 +38,7 @@ header {
 }
 .menu a {	
     display: block;	
-    color: #fff; 
-    padding: .75rem;	
+    color: #fff;	
     text-align: center;	
     text-decoration: none;
 }
