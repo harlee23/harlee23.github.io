@@ -23,6 +23,7 @@ header {
   font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
   display: inline-block;
   vertical-align: bottom;
+  text-align: center
 }
 .menu {
   list-style-type: none;
