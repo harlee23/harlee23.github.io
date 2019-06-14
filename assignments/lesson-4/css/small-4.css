@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=News+Cycle|Open+Sans+Condensed:300|Roboto+Condensed&display=swap');
+@import url("https://fonts.googleapis.com/css?family=News+Cycle|Open+Sans+Condensed:300|Roboto+Condensed&display=swap");
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
     font-size: 2em;
     color: #000000;
-    text align: left;
+    text-align: left;
 }
 
 p {
     font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
-    font-size: 1em
-    color: #000000
-    text align: left;
+    font-size: 1em;
+    color: #000000;
+    text-align: left;
 }
 
 header {
