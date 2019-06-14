@@ -37,6 +37,8 @@ header {
 
 ul {
     list-style-type: none;
+    margin: 20px;
+    padding: 20px;
     overflow: hidden;
     background-color: #157a6e;
   }
