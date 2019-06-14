@@ -77,9 +77,8 @@ img {
     height: 65px;
   }
 
-  .leftcol, .rightcol {
-    max-width: 48%;
-    flex: 1 0 15em;
-    padding: 10px;
+  .googlemap {
+      display: inline-block;
+      float: right;
   }
   
