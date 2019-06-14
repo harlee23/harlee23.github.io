@@ -37,9 +37,6 @@ header {
     list-style: none; 
     text-align: center; 
 }
-.menu li:first-child { 
-    display: block;
-}
 .menu li { 
     display: inline-block;
 }
