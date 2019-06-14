@@ -41,11 +41,11 @@ ul {
     padding: 20px;
     overflow: hidden;
     background-color: #157a6e;
-  }
+}
   
 li {
     float: left;
-  }
+}
   
 li a {
     display: block;
@@ -53,11 +53,15 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
   
 li a:hover {
     background-color: #ffffff;
-  }
+}
+
+.active {
+    background-color: #849483;
+}  
 
 img {
     max-width: 100%;
