@@ -33,6 +33,30 @@ header {
   font-size: 1.5em;
   color: white;
 }
+.menu li:first-child { 
+    display: block;
+}
+.menu li { 
+    display: none;
+}
+.menu a {	
+    display: block;	
+    color: #fff; 
+    padding: .75rem;	
+    text-align: center;	
+    text-decoration: none;
+}
+.menu a:hover {	
+    color: #000; 
+    background-color: #fff; 
+    font-weight: 700;
+}
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+  .navigation li:first-child { display: none;	}
+	.navigation li { display: inline-block; margin-right: 1rem;}	
+	.navigation li a { color: yellow;}
+}
 
 img {
     max-width: 100%;
