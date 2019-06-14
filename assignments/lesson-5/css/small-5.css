@@ -33,9 +33,6 @@ header {
   font-size: 1.5em;
   color: white;
 }
-.menu li:first-child { 
-    display: block;
-}
 .menu li { 
     display: none;
 }
@@ -51,13 +48,6 @@ header {
     background-color: #fff; 
     font-weight: 700;
 }
-/* Media Query for medium + screens */
-@media only screen and (min-width: 32.5em) {
-  .navigation li:first-child { display: none;	}
-	.navigation li { display: inline-block; margin-right: 1rem;}	
-	.navigation li a { color: yellow;}
-}
-
 img {
     max-width: 100%;
 }
