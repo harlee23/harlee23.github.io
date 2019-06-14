@@ -33,9 +33,6 @@ header {
   font-size: 1.5em;
   color: white;
 }
-.menu li { 
-    display: none;
-}
 .menu a {	
     display: block;	
     color: #fff;	
