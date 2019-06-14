@@ -38,10 +38,10 @@ header {
     text-align: center; 
 }
 .menu li:first-child { 
-    display: inline-block;
+    display: block;
 }
 .menu li { 
-    display: none;
+    display: inline-block;
 }
 .menu a {	
     display: block;	
@@ -54,6 +54,9 @@ header {
     color: #000; 
     background-color: #fff; 
     font-weight: 700;	
+}
+.responsive li { 
+    display: block;
 }
 img {
     max-width: 100%;
