@@ -37,16 +37,29 @@ header {
   padding: 0;
 }
 
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #157a6e;
+  }
+  
 .menu li {
-    display: inline;
     float: left;
-}
-
-.menu a {
+  }
+  
+.menu li a {
     display: block;
-    padding: 8px;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.menu li a:hover {
     background-color: #ffffff;
-}
+  }
 
 img {
     max-width: 100%;
