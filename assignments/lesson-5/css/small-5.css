@@ -24,6 +24,7 @@ header {
   vertical-align: bottom;
   text-align: center;
 }
+
 .menu {
   list-style-type: none;
   display: block;
@@ -32,6 +33,8 @@ header {
   font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
   font-size: 1.5em;
   color: white;
+  margin: 0;
+  padding: 0;
 }
 
 img {
