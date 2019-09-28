@@ -1,0 +1,41 @@
+* { margin: 0; box-sizing: border-box; } 
+
+body { 
+    font-size: 16px; 
+    line-height: 32px;
+    color: #000000;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+    font-size: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header, main, footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 1000px;
+}
+
+header, footer, footer a {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+header img {
+    width: 300px;
+    height: auto;
+}
+
+footer {
+    font-size: .5rem;
+}
