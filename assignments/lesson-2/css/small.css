@@ -51,7 +51,7 @@ main {
 main section {
 	margin: 0.5rem;
 	border: 1px solid #000000;
-	padding: 0 1rem;
+	padding: 1rem;
 	background-color: #eee;
 }
 section:nth-child(2) {
