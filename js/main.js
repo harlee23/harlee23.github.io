@@ -3,5 +3,5 @@ const options =
     day: 'numeric',
     month: 'long',
     year: 'numeric'};
-document.getElementById('currentDate').textContent = new Date(document.lastModified).toLocaleDateString('en-US',options);
-document.getElementById('lastUpdated').textContent = new Date(document.lastModified).getFullYear();
+document.getElementById('lastUpdated').textContent = new Date(document.lastModified).toLocaleDateString('en-US',options);
+document.getElementById('currentDate').textContent = new Date(document.lastModified).getFullYear();
