@@ -43,7 +43,7 @@ footer {
 img {
     width: 300px;
     height: auto;
-    float: center;
+    display: block;
 }
 
 <!--Above this point is information that carried over from the home page. Below this point has to do with the grids.-->
@@ -52,6 +52,8 @@ main {
 	max-width: 767px;
     margin: 0 auto;
     display: grid;
+}
+main{
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
 }
@@ -61,4 +63,8 @@ main section {
 	border: 1px solid #000000;
 	padding: 1rem;
 	background-color: #eee;
+}
+section:nth-child(2) {
+	display: none;
+	margin: 0.5rem;
 }
