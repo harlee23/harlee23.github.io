@@ -41,7 +41,7 @@ footer {
 }
 
 img {
-    width: 50%
+    width: 300px;
     height: auto;
 }
 <!--Above this point is information that carried over from the home page. Below this point has to do with the grids.-->
