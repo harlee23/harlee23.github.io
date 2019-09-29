@@ -40,6 +40,8 @@ footer {
     font-size: .5rem;
 }
 
+<!--Above this point is information that carried over from the home page. Below this point has to do with the grids.-->
+
 main {
 	max-width: 767px;
     margin: 0 auto;
@@ -53,8 +55,4 @@ main section {
 	border: 1px solid #000000;
 	padding: 1rem;
 	background-color: #eee;
-}
-section:nth-child(2) {
-	display: none;
-	margin: 0.5rem;
 }
