@@ -19,6 +19,11 @@ h2 {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+h3 {
+    font-size: 1rem;
+    text-align: center;
+}
+
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
