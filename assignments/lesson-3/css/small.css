@@ -49,7 +49,7 @@ footer {
 img {
     width: 200px;
     height: auto;
-    display: block;
+    display: center;
 }
 
 <!--Above this point is information that carried over from the home page. Below this point has to do with the grids.-->
