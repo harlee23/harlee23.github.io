@@ -43,16 +43,16 @@ header img {
 }
 
 footer {
-    font-size: .5rem;
+    font-size: 1rem;
 }
 
 img {
-    width: 250px;
+    width: 100%;
     height: auto;
     display: block;
 }
 
-<!--Above this point is information that carried over from the home page. Below this point has to do with the grids.-->
+/*Above this point is information that carried over from the home page. Below this point has to do with the grids.*/
 
 main {
 	max-width: 767px;
