@@ -55,7 +55,7 @@ img {
 /*Above this point is information that carried over from the home page. Below this point has to do with the grids.*/
 
 main {
-	max-width: 767px;
+	max-width: 800px;
 	margin: 0 auto;
 }
 
