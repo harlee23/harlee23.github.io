@@ -97,7 +97,12 @@ section:nth-child(2) {
 
 nav {
     display: flex;
-	background-color: #000000;
+    background-color: #000000;
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 nav ul {
 	list-style-type: none;
