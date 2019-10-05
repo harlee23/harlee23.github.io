@@ -95,13 +95,13 @@ nav {
     display: flex;
 	background-color: #000000;
     text-align: center;
-    align-items: center;
 }
 nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
+    overflow: hidden;
+    align-items: center;
 }
 nav li a {
 	display: block;
@@ -111,6 +111,7 @@ nav li a {
 	text-decoration: none;
     font-size: 0.95rem;
     font-family: 'Roboto Condensed', sans-serif;
+    align-items: center;
 }
 nav a:hover {
 	background-color: gray;
