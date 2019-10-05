@@ -52,7 +52,7 @@ img {
     display: block;
 }
 
-/*Above this point is information that carried over from the home page. Below this point has to do with the grids.*/
+/*Above this point is information that carried over from the home page. Below this point has to do with the grids.
 
 main {
 	max-width: 800px;
@@ -74,7 +74,7 @@ main section {
 section:nth-child(2) {
 	display: flex;
 	margin: 0.5rem;
-}
+}*/
 
 /*Below this point as to do with grids.*/
 
