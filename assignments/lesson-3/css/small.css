@@ -79,9 +79,8 @@ section:nth-child(2) {
 /*Below this point as to do with grids.*/
 
 nav {
-	background-color: #36454f;
+	background-color: #000000;
 	text-align: center;
-	box-shadow: 0 2px 15px gray;
 }
 nav ul {
 	list-style-type: none;
@@ -95,12 +94,13 @@ nav li a {
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
-	font-size: 0.95rem;
+    font-size: 0.95rem;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 nav a:hover {
-	background-color: #bbb;
-	color: #36454f;
+	background-color: gray;
+	color: #000000;
 }
 .active {
-	color: yellow;
+    color: #157a6e;
 }
