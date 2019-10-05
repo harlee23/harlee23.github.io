@@ -60,7 +60,7 @@ main {
 }
 
 main {
-	display: grid;
+	display: flex;
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
 }
@@ -72,6 +72,6 @@ main section {
 	background-color: #eee;
 }
 section:nth-child(2) {
-	display: grid;
+	display: flex;
 	margin: 0.5rem;
 }
