@@ -96,7 +96,7 @@ section:nth-child(2) {
 /*Below this point as to do with grids.*/
 
 nav {
-    display: flex;
+    display: block;
     background-color: #000000;
 }
 nav ul {
