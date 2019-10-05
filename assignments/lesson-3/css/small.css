@@ -98,9 +98,6 @@ section:nth-child(2) {
 nav {
     display: flex;
     background-color: #000000;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 nav ul {
 	list-style-type: none;
