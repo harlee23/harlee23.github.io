@@ -18,8 +18,12 @@ header {
      text-align: center;
 }
 
-.icon {
-    padding: 10em;
+#phrase {
+    font-size: 1em;
+}
+
+#icon {
+    padding: 2em;
 }
 
 .motto {
