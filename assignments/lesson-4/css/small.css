@@ -62,7 +62,6 @@ nav {
 
 #collapse {
     display: block;
-    margin: .2rem 2%;
     color: white;
 }
 
@@ -98,4 +97,12 @@ nav li:first-child {
 
 .active {
     color:#000000;
+}
+
+.placeholder {
+    display: block;
+    margin: 15px 25px;
+    background-color: gray;
+    padding: 15px;
+    border: #000000;
 }
