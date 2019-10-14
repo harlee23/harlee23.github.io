@@ -59,12 +59,23 @@ nav {
     display: block;
     background-color: #157a6e;
 }
+
+#collapse {
+    display: block;
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+}
+
 nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
     overflow: hidden;
 }
+
 nav li a {
 	display: block;
 	color: #ffffff;
@@ -74,10 +85,12 @@ nav li a {
     font-size: 0.95rem;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
 nav a:hover {
 	background-color: gray;
 	color: #000000;
 }
+
 .active {
     color:#000000;
 }
