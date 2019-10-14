@@ -63,9 +63,6 @@ nav {
 #collapse {
     display: block;
     margin: .2rem 2%;
-    background-color: transparent;
-    border: none;
-    font-size: 1.6rem;
     color: white;
 }
 
@@ -88,7 +85,15 @@ nav li a {
 
 nav a:hover {
 	background-color: gray;
-	color: #000000;
+    color: #000000;
+}
+
+nav li:first-child {
+    display: block;
+}
+
+.responsive li {
+    display: block;
 }
 
 .active {
