@@ -35,36 +35,25 @@ header, footer, footer a {
     text-align: center;
 }
 
-nav {
-    align-items: center;
+.motto {
+    font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+  }
+
+  #icon {
+    width: 50px;
+    height: auto;
 }
 
-header img {
-    width: 300px;
-    height: auto;
+nav {
+    align-items: center;
 }
 
 footer {
     flex: 0 1 100%;
     font-size: .75rem;
-}
-
-img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.logo {
-    width: 25%;
-    height: auto;
-    display: center;
-}
-
-.colors {
-    width: 75%;
-    height: auto;
-    display: center;
 }
 
 nav {
