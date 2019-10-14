@@ -18,21 +18,6 @@ header {
      text-align: center;
 }
 
-#phrase {
-    font-size: 1em;
-}
-
-#icon {
-    padding: 1em;
-}
-
-.motto {
-  font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
-  display: inline-block;
-  vertical-align: bottom;
-  text-align: center;
-}
-
 nav {
     display: block;
     background-color: #157a6e;
@@ -58,7 +43,22 @@ nav a:hover {
     ;
 }
 .active {
-    columns: #000000;;
+    columns: #000000;
+}
+
+#phrase {
+    font-size: 1em;
+}
+
+#icon {
+    padding: 1em;
+}
+
+.motto {
+  font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+  display: inline-block;
+  vertical-align: bottom;
+  text-align: center;
 }
 
 .placeholder, .forecastplaceholder {
