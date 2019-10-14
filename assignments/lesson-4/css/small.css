@@ -1,3 +1,4 @@
+* { margin: 0; box-sizing: border-box; } 
 @import url("https://fonts.googleapis.com/css?family=News+Cycle|Open+Sans+Condensed:300|Roboto+Condensed&display=swap");
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,11 +25,17 @@ header, footer, footer a {
     font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
 }
 
+footer {
+    flex: 0 1 100%;
+    font-size: .75rem;
+}
+
 nav {
     display: block;
     background-color: #157a6e;
     align-items: center;
 }
+
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -36,7 +43,7 @@ nav ul {
     overflow: hidden;
 }
 nav li a {
-	display: block;
+	display: inline-block;
 	color: #ffffff;
 	text-align: center;
 	padding: 0.75rem;
