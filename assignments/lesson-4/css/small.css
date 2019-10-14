@@ -14,8 +14,12 @@ p {
 }
 
 header {
-  font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
-  text-align: center;
+    font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+     text-align: center;
+}
+
+.icon {
+    padding: 2em;
 }
 
 .motto {
