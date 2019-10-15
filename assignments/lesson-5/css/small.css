@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3 {
+    font-size: 1rem;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 1000px;
+}
+
+header,
+footer,
+footer a {
+    text-align: center;
+}
+
+.motto {
+    font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    padding: 50px;
+}
+
+#icon {
+    width: 150px;
+    height: auto;
+}
+
+footer {
+    flex: 0 1 100%;
+    font-size: .75rem;
+}
+
+nav #collapse {
+    display: block;
+    color: white;
+}
+
+nav {
+    background-color: #157a6e;
+    align-items: center;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navigation li a:hover {
+    background-color: #849483;
+    color: #000000;
+}
+
+li .active {
+    color: #000000;
+}
+
+.responsive li {
+    display: block;
+}
+
+.placeholder {
+    display: block;
+    margin: 15px;
+    background-color: #849483;
+    padding: 15px;
+    border: 1px #000000;
+}
