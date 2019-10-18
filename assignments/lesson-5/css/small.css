@@ -26,6 +26,10 @@ h3 {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+header {
+    background-color: #849483;
+}
+
 header,
 nav,
 main,
@@ -47,14 +51,47 @@ footer a {
     vertical-align: bottom;
     text-align: center;
     padding: 50px;
+    padding-bottom: 85px;
+}
+
+#title {
+    font-size: 2.5rem;
+}
+
+#motto {
+    line-height: 10px;
+
 }
 
 #icon {
-    width: 150px;
+    width: 50px;
+    height: auto;
+    padding: 40px;
+}
+
+#welcome {
+    text-align: center;
+}
+
+#town {
+    width: 100%;
     height: auto;
 }
 
+#forecast {
+    text-align: center;
+}
+
+#author {
+    text-align: left;
+}
+
+.contact {
+    text-align: left;
+}
+
 footer {
+    background-color: #849483;
     flex: 0 1 100%;
     font-size: .75rem;
 }
@@ -110,7 +147,7 @@ li .active {
 .placeholder {
     display: block;
     margin: 15px;
-    background-color: #849483;
+    background-color: #6a8d73;
     padding: 15px;
-    border: 1px #000000;
+    border: none;
 }

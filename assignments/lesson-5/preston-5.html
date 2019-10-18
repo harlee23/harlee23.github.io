@@ -1,49 +1,94 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title>Community Weather</title>
-        <meta name="description" content="Community Weather Preston Page">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/small.css">
-        <link rel="stylesheet" href="css/medium.css">
-        <link rel="stylesheet" href="css/large.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
-        <link rel="icon" href="favicon.ico">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Community Weather</title>
+    <meta name="description" content="Community Weather Preston Page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
 
-    <body>
-        <header>
-            <img id="icon" src="images/icon.png" alt="Weather Icon">
-            <div class="motto">
-                <h1>Community Weather</h1>
-                <h2>News On All Things Community, Weather, and More</h2>
-            </div>
-        </header>
-        <nav>
-            <ul class="navigation">
-                <li><a id=collapse href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="preston-4.html" class="active">Preston</a></li>
-                <li><a href="#">Soda Springs</a></li>
-                <li><a href="#">Fish Haven</a></li>
-                <li><a href="#">Storm Center</a></li>
-                <li><a href="#">Gallery</a></li>
-            </ul>
-        </nav>
-        <main>
-            <div class="placeholder">Weather Summary and Hero Image</div>
-            <div class="placeholder">Five Day Forecast</div>
-            <div class="placeholder">Article</div>
-            <div class="placeholder">Map and Contact Information</div>
-        </main>
-        <footer>
-            <p>&copy;<span id="currentDate"> </span> | Community Weather | Harlee Dye | Texas | <a
-                    href="http://www.byui.edu/online">BYU-Idaho Online Learning</a></p>
-            <p>Last Updated: <span id="lastUpdated"> </span></p>
-        </footer>
-        <script src=js/main.js> </script> 
-    </body> 
-</html>
+<body>
+    <header>
+        <img id="icon" src="images/icon.png" alt="Weather Icon">
+        <div class="motto">
+            <h1 id="title">Community Weather</h1>
+            <h2 id="motto">News On All Things Community, Weather, and More</h2>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a id=collapse href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-4.html" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 id="welcome">Welcome to Preston, Idaho!</h1>
+        <div>
+            <img id="town" src="images/small-town.jpg" alt="Small Town- Hero Image">
+        </div>
+        <h1 id="forecast">5 Day Forecast</h1>
+        <div>
+
+        </div>
+        <div class="placeholder">
+            <h1>Article Title</h1>
+            <h2 id="author">by Harlee Dye</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus
+                    ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent
+                    mauris. Fusce nec tellus sed augue semper porta. <b>Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit</b>. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>
+
+                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur
+                    sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam.
+                    In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. <i>Lorem ipsum dolor sit
+                        amet, consectetur adipiscing elit</i>. Proin ut ligula vel nunc egestas porttitor. Morbi lectus
+                    risus, iaculis vel, suscipit quis, luctus non, massa. </p>
+
+                <p>Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt
+                    sed, euismod in, nibh. Quisque volutpat condimentum velit. <i>Sed dignissim lacinia nunc</i>. Class
+                    aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed
+                    lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla
+                    facilisi. <i>Pellentesque nibh</i>. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus
+                    consequat imperdiet. </p>
+
+                <p>Vestibulum sapien. Proin quam. Etiam ultrices. <b>Nulla metus metus, ullamcorper vel, tincidunt sed,
+                        euismod in, nibh</b>. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod
+                    lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna
+                    augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                    Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue
+                    elementum. Morbi in ipsum sit amet pede facilisis laoreet. </p>
+
+                <p>Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut
+                    ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla
+                    facilisi. Integer lacinia sollicitudin massa. <b>Quisque cursus, metus vitae pharetra auctor, sem massa
+                        mattis sem, at interdum magna augue eget diam</b>. Cras metus. Sed aliquet risus a tortor. Integer
+                    id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue.
+                    Proin sodales libero eget ante. </p>
+        </div>
+        <div>
+            <h1>Community Weather</h1>
+                <h2 class="contact">196 N. State Street<br>
+                   Preston, ID 83263</h2><br>
+
+                <h2 class="contact">(208)555-5555</h2>
+                <h2 class="contact">communityweather@gmail.com</h2>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentDate"> </span> | Community Weather | Harlee Dye | Texas | <a
+                href="http://www.byui.edu/online">BYU-Idaho Online Learning</a></p>
+        <p>Last Updated: <span id="lastUpdated"> </span></p>
+    </footer>
+    <script src=js/main.js> </script> </body> </html>
