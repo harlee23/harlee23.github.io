@@ -60,11 +60,10 @@ footer a {
 
 #motto {
     line-height: 10px;
-
 }
 
 #icon {
-    width: 50px;
+    width: 250px;
     height: auto;
     padding: 40px;
 }
@@ -86,8 +85,24 @@ footer a {
     text-align: left;
 }
 
+#map {
+    width: 250px;
+    height: 250px;
+    display: center;
+    padding-left: 250px;
+}
+
 .contact {
+    display: flex;
+    background-color: #849483;
+    padding: 15px;
+    border: none;
+}
+
+.contacttext {
     text-align: left;
+    font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+    padding: 30px;
 }
 
 footer {
