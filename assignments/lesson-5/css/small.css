@@ -45,124 +45,133 @@ footer a {
     text-align: center;
 }
 
-.motto {
-    font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
-    display: inline-block;
-    vertical-align: bottom;
-    text-align: center;
-    padding: 50px;
-    padding-bottom: 85px;
-}
-
-#title {
-    font-size: 2.5rem;
-}
-
-#motto {
-    line-height: 10px;
-}
-
-#icon {
-    width: 250px;
-    height: auto;
-    padding: 40px;
-}
-
-#welcome {
-    text-align: center;
-}
-
-#town {
-    width: 100%;
-    height: auto;
-}
-
-#forecast {
-    text-align: center;
-}
-
-#author {
-    text-align: left;
-}
-
-#map {
-    width: 250px;
-    height: 250px;
-    display: center;
-    padding-left: 250px;
-}
-
-.contact {
-    display: flex;
-    background-color: #849483;
-    padding: 15px;
-    border: none;
-}
-
-.contacttext {
-    text-align: left;
-    font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
-    padding: 30px;
-}
-
 footer {
     background-color: #849483;
     flex: 0 1 100%;
     font-size: .75rem;
 }
 
-nav #collapse {
-    display: block;
-    color: white;
-}
+/* Ids and Classes */
+    .motto {
+        font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+        display: inline-block;
+        vertical-align: bottom;
+        text-align: center;
+        padding: 50px;
+        padding-bottom: 85px;
+    }
 
-nav {
-    background-color: #157a6e;
-    align-items: center;
-}
+    #title {
+        font-size: 2.5rem;
+    }
 
-.navigation {
-    list-style: none;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
+    #motto {
+        line-height: 10px;
+    }
 
-.navigation li:first-child {
-    display: block;
-}
+    #icon {
+        width: 250px;
+        height: auto;
+        padding: 40px;
+    }
 
-.navigation li {
-    display: none;
-}
+    #welcome {
+        text-align: center;
+    }
 
-.navigation a {
-    display: block;
-    color: #ffffff;
-    text-align: center;
-    padding: 0.75rem;
-    text-decoration: none;
-    font-size: 0.95rem;
-    font-family: 'Roboto Condensed', sans-serif;
-}
+    #town {
+        width: 100%;
+        height: auto;
+    }
 
-.navigation li a:hover {
-    background-color: #849483;
-    color: #000000;
-}
+    #forecast {
+        text-align: center;
+    }
 
-li .active {
-    color: #000000;
-}
+    #author {
+        text-align: left;
+    }
 
-.responsive li {
-    display: block;
-}
+    #farming {
+        width: 50%;
+        height: auto;
+        float: right;
+        padding-left: 15px;
+    }
 
-.placeholder {
-    display: block;
-    margin: 15px;
-    background-color: #6a8d73;
-    padding: 15px;
-    border: none;
-}
+    #map {
+        width: 250px;
+        height: 250px;
+        display: center;
+    }
+
+    .contact {
+        display: flex;
+        background-color: #849483;
+        padding: 15px;
+        border: none;
+    }
+
+    .contacttext {
+        text-align: left;
+        font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+        padding: 30px;
+    }
+
+/* Navigation Styles */
+    nav #collapse {
+        display: block;
+        color: white;
+    }
+
+    nav {
+        background-color: #157a6e;
+        align-items: center;
+    }
+
+    .navigation {
+        list-style: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navigation li:first-child {
+        display: block;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .navigation a {
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 0.75rem;
+        text-decoration: none;
+        font-size: 0.95rem;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .navigation li a:hover {
+        background-color: #849483;
+        color: #000000;
+    }
+
+    li .active {
+        color: #000000;
+    }
+
+    .responsive li {
+        display: block;
+    }
+
+/* Background and Placeholder Class */
+    .placeholder {
+        display: block;
+        margin: 15px;
+        background-color: #6a8d73;
+        padding: 15px;
+        border: none;
+    }
