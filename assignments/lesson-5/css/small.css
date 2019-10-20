@@ -79,7 +79,28 @@ footer {
         text-align: center;
     }
 
+    .wsbox {
+        position: relative;
+    }
+
+    .weathersummary {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        background: #157a6e; opacity: .9;
+        padding: 15px;
+        color: #ffffff;
+        font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+    }
+
+    #wstitle {
+        font-size: 1.5rem;
+        padding: 15px;
+        text-decoration: underline;
+    }
+
     #town {
+        position: relative;
         width: 100%;
         height: auto;
     }
@@ -106,6 +127,7 @@ footer {
     }
 
     .contact {
+        align-content: center;
         display: flex;
         background-color: #849483;
         padding: 15px;
