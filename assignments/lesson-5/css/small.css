@@ -185,6 +185,28 @@ footer {
         padding: 30px;
     }
 
+    .social{
+        display: inline-block;
+    }
+
+    #facebook{
+        width: 35px;
+        height: auto;
+        padding: 5px;
+    }
+
+    #instagram{
+        width: 35px;
+        height: auto;
+        padding: 5px;
+    }
+
+    #pinterest{
+        width: 35px;
+        height: auto;
+        padding: 5px;
+    }
+
 /* Navigation Styles */
     nav #collapse {
         display: block;
