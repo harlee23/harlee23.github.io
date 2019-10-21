@@ -10,3 +10,19 @@ function toggleMenu() {
 
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
+
+function announcement()
+{
+    var pancakeannouncement = document.getElementsByClassName("pancakehide")[0];
+    var date = new Date();
+    if (date.getDay() == 5){
+        pancakeannouncement.classList.toggle("pancakeshow");
+        pancakeannouncement.classList.toggle("pancakehide");
+    }
+} 
+
+function dates(){
+    lastUpdated();
+    currentDate();
+    announcement();
+}

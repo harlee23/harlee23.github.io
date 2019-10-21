@@ -65,6 +65,20 @@ footer {
 }
 
 /* Ids and Classes */
+    .pancakehide {
+        display: none;
+        text-align: center;
+        background-color: #DB663D;
+        font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+    }
+
+    .pancakeshow {
+        display: block;
+        text-align: center;
+        background-color: #DB663D;
+        font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+    }
+
     .motto {
         font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
         display: inline-block;
@@ -119,7 +133,7 @@ footer {
     }
 
     .forecasttable {
-        position: inline-block;
+        display: none;
     }
 
     #forecast {
@@ -154,9 +168,7 @@ footer {
     }
 
     #map {
-        width: 250px;
-        height: 250px;
-        display: center;
+        display: none;
     }
 
     .contact {
@@ -225,7 +237,7 @@ footer {
 /* Background and Placeholder Class */
     .placeholder {
         display: block;
-        margin: 15px;
+        margin: 25px;
         background-color: #6a8d73;
         padding: 15px;
         border: none;
