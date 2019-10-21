@@ -45,6 +45,19 @@ footer a {
     text-align: center;
 }
 
+table {
+    display: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-right: 1px solid black;
+    border-collapse: collapse;
+    align-items: center;
+    text-align: center;
+}
+
 footer {
     background-color: #849483;
     flex: 0 1 100%;
@@ -105,8 +118,28 @@ footer {
         height: auto;
     }
 
+    .forecasttable {
+        position: inline-block;
+    }
+
     #forecast {
         text-align: center;
+    }
+
+    #days {
+        background: #157a6e;
+        color: #ffffff;
+        font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+    }
+    
+    #temp {
+        font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+    }
+    
+    .cloudsun {
+        padding-top: 15px;
+        width: 75%;
+        height: auto;
     }
 
     #author {
