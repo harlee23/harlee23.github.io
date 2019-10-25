@@ -35,8 +35,12 @@
     </nav>
     <main>
         <h1 id="welcome">Welcome to Preston, Idaho!</h1>
-        <div class="wsbox">
-            <img id="town" src="images/small-town.jpg" alt="Small Town- Hero Image">
+        <div class="wsbox">950 520
+            <picture>
+                <source srcset="images/" media="(max-width: 520px )">
+                <source srcset="images/" media="(max-width: 950px)">
+                <img id="town" src="images/" alt="blue sky and green field with trees">
+            </picture>  
             <div class="weathersummary">
                 <h2 id="wstitle">Weather Summary</h2>
                 <p>Currently: Cloudy</p>
