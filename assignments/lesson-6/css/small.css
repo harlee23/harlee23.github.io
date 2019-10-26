@@ -159,9 +159,9 @@ footer {
     }
 
     #farming {
-        width: 50%;
+        width: 100%;
         height: auto;
-        float: right;
+        display: inline-block;
         padding-left: 15px;
     }
 
@@ -180,7 +180,7 @@ footer {
     .contacttext {
         text-align: center;
         font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
-        padding: 30px;
+        padding: 15px;
     }
 
     .social{

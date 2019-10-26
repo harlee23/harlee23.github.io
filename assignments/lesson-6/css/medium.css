@@ -17,6 +17,13 @@
     .forecasttable {
         display: block;
     }
+
+    #farming {
+        width: 50%;
+        height: auto;
+        float: right;
+        padding-left: 15px;
+    }
 	
 	#map {
         width: 300px;
