@@ -66,15 +66,14 @@ footer {
 /* Ids and Classes */
     .pancakehide {
         display: none;
-        text-align: center;
-        background-color: #DB663D;
-        font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
     }
 
     .pancakeshow {
         display: block;
         text-align: center;
+        color: #ffffff;
         background-color: #DB663D;
+        padding: 5px;
         font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
     }
 
@@ -179,7 +178,7 @@ footer {
     }
 
     .contacttext {
-        text-align: left;
+        text-align: center;
         font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
         padding: 30px;
     }
