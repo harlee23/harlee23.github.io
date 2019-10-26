@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: auto;
     box-sizing: border-box;
 }
 
@@ -171,7 +171,7 @@ footer {
     }
 
     .contact {
-        align-content: center;
+        justify-content: center;
         display: flex;
         background-color: #849483;
         padding: 15px;
