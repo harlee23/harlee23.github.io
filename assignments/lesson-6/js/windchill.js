@@ -1,6 +1,6 @@
 function windchill(){
-    var temperature = parseFloat(document.getElementsById("temperature").innerHTML);
-    var windspeed = parseFloat(document.getElementsById("windspeed").innerHTML);
+    var temperature = parseFloat(document.getElementById("temperature").innerHTML);
+    var windspeed = parseFloat(document.getElementById("windspeed").innerHTML);
 
     if (temperature>=50 || windspeed<=3){
         document.getElementsById("windchill").innerHTML="N/A";
