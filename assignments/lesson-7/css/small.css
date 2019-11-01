@@ -100,9 +100,14 @@ footer {
         padding: 40px;
     }
 
+    #gallery {
+        text-align: center;
+    }
+
     .gallery {
         justify-content: center;
-        text-align: center;
+        display:grid; 
+        grid-template-columns: 1fr;
     }
 
     #welcome {
