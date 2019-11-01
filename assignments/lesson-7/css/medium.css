@@ -32,8 +32,7 @@
     }
 
     .gallery {
-        align-content: center;
-        display:grid; 
+        align-content: center; 
         grid-template-columns: 1fr 1fr;
     }
 
