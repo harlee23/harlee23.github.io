@@ -106,7 +106,6 @@ footer {
 
     .gallery {
         align-content: center;
-        margin: 15px;
         display:grid; 
         grid-template-columns: 1fr;
     }
