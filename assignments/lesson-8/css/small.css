@@ -1,0 +1,290 @@
+* {
+    margin: auto;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3 {
+    font-size: 1rem;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    background-color: #849483;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 1000px;
+}
+
+header,
+footer,
+footer a {
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-right: 1px solid black;
+    border-collapse: collapse;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    background-color: #849483;
+    flex: 0 1 100%;
+    font-size: .75rem;
+}
+
+/* Ids and Classes */
+    .pancakehide {
+        display: none;
+    }
+
+    .pancakeshow {
+        display: block;
+        text-align: center;
+        color: #ffffff;
+        background-color: #DB663D;
+        padding: 5px;
+        font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+    }
+
+    .motto {
+        font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+        display: inline-block;
+        vertical-align: bottom;
+        text-align: center;
+        padding: 50px;
+        padding-bottom: 85px;
+    }
+
+    #title {
+        font-size: 2.5rem;
+    }
+
+    #motto {
+        line-height: 10px;
+    }
+
+    #icon {
+        width: 250px;
+        height: auto;
+        padding: 40px;
+    }
+
+    #gallery {
+        text-align: center;
+    }
+
+    .gallery {
+        align-content: center;
+        grid-gap: 15px;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 0px;
+        display: grid; 
+        grid-template-columns: 1fr;
+    }
+
+    .gallery figcaption {
+        font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+
+    .select:hover {
+        box-shadow: 0 0 50px #333;
+    }
+
+    #welcome {
+        text-align: center;
+    }
+
+    .wsbox {
+        position: relative;
+    }
+
+    .weathersummary {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        background: #157a6e; opacity: .9;
+        padding: 15px;
+        color: #ffffff;
+        font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+    }
+
+    #wstitle {
+        font-size: 1.5rem;
+        padding: 15px;
+        text-decoration: underline;
+    }
+
+    #town {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .forecasttable {
+        display: none;
+    }
+
+    #forecast {
+        text-align: center;
+    }
+
+    #days {
+        background: #157a6e;
+        color: #ffffff;
+        font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+    }
+    
+    #temp {
+        font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+    }
+    
+    .cloudsun {
+        padding-top: 15px;
+        width: 75%;
+        height: auto;
+    }
+
+    #author {
+        text-align: left;
+    }
+
+    #farming {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        padding-left: 15px;
+    }
+
+    #map {
+        display: none;
+    }
+
+    .contact {
+        justify-content: center;
+        display: flex;
+        background-color: #849483;
+        padding: 15px;
+        border: none;
+    }
+
+    .contacttext {
+        text-align: center;
+        font-family: 'Roboto Condensed', 'Open Sans Condensed', 'News Cycle', sans-serif;
+        padding: 15px;
+    }
+
+    .social{
+        display: inline-block;
+    }
+
+    #facebook{
+        width: 35px;
+        height: auto;
+        padding: 5px;
+    }
+
+    #instagram{
+        width: 35px;
+        height: auto;
+        padding: 5px;
+    }
+
+    #pinterest{
+        width: 35px;
+        height: auto;
+        padding: 5px;
+    }
+
+/* Navigation Styles */
+    nav #collapse {
+        display: block;
+        color: white;
+    }
+
+    nav {
+        background-color: #157a6e;
+        align-items: center;
+    }
+
+    .navigation {
+        list-style: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navigation li:first-child {
+        display: block;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .navigation a {
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 0.75rem;
+        text-decoration: none;
+        font-size: 0.95rem;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .navigation li a:hover {
+        background-color: #849483;
+        color: #000000;
+    }
+
+    li .active {
+        color: #000000;
+    }
+
+    .responsive li {
+        display: block;
+    }
+
+/* Background and Placeholder Class */
+    .placeholder {
+        display: block;
+        margin: 25px;
+        background-color: #6a8d73;
+        padding: 15px;
+        border: none;
+    }
