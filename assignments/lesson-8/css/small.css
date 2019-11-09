@@ -303,3 +303,8 @@ footer {
     .label {
         font-size: 1.25em;
     }
+
+    #thanks {
+        text-align: center;
+        padding: 25px;
+    }
