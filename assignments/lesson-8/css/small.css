@@ -288,3 +288,18 @@ footer {
         padding: 15px;
         border: none;
     }
+
+/* Storm Report Page */
+    .reportform {
+        font-family: 'Roboto Condensed', sans-serif; 
+        background-color: #6a8d73;
+        display: block;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 50px;
+        border: none;
+    }
+
+    .label {
+        font-size: 1.25em;
+    }

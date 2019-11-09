@@ -77,23 +77,17 @@
 
                     <label for="stormseverity">
                         <span class="label">Storm Severity:</span>
-		                <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustrating(this.value)" onchange="adjustrating(this.value)">
-				        <span id="ratingvalue">5</span>
+		                <input id="storm-severity" name="storm-severity" type="range" max="10" min="1" step="1" value="5" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">&nbsp;&nbsp;&nbsp;<span id="ratingvalue">5</span>
                     </label><br><br>
 
 
                     <label for="stormregion">
                         <span class="label">Storm Region:</span>
                         <select name="stormregion">
-
                             <option selected value="Select Region..." disabled>Select Region...</option>
-
                             <option value="Preston">Preston</option>
-
                             <option value="Soda Springs">Soda Springs</option>
-
                             <option value="Fish Haven">Fish Haven</option>
-
                         </select>
                     </label><br><br>
 
