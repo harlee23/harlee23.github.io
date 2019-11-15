@@ -40,32 +40,32 @@
 
                     <label for="fullname">
                         <span class="label">Full Name:</span>
-                        <input pattern="[a-zA-Z ]{5,}" name="full-name" type="text" required>
+                        <input pattern="[a-zA-Z ]{5,}" id="fullname" name="fullname" type="text" required>
                     </label><br><br>
 
                     <label for="email">
                         <span class="label">Email:</span>
-                        <input name="email" type="email" placeholder="johnsmith@gmail.com">
+                        <input id="email" name="email" type="email" placeholder=" johnsmith@gmail.com">
                     </label><br><br>
 
                     <label for="phonenumber">
                         <span class="label">Phone Number:</span>
-                        <input name="phonenumber" type="tel" required>
+                        <input id="phonenumber" name="phonenumber" type="tel" required>
                     </label><br><br>
 
                     <label for="zipcode">
                         <span class="label">Zip Code:</span>
-                        <input name="zipcode" type="number" required>
+                        <input id="zipcode" name="zipcode" type="number" required>
                     </label><br><br>
 
                     <label for="stormdate">
                         <span class="label">Storm Date:</span>
-                        <input name="stormdate" type="date">
+                        <input id="stormdate" name="stormdate" type="date">
                     </label><br><br>
 
                     <label for="stormtype">
                         <span class="label">Storm Type:</span>
-                        <input name="stormtype" list="stormtypes">
+                        <input id="stormtype" name="stormtype" list="stormtypes">
                         <datalist id="stormtypes">
                             <option value="Flash Flood"></option>
                             <option value="Hail"></option>
@@ -77,13 +77,13 @@
 
                     <label for="stormseverity">
                         <span class="label">Storm Severity:</span>
-		                <input id="storm-severity" name="storm-severity" type="range" max="10" min="1" step="1" value="5" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">&nbsp;&nbsp;&nbsp;<span id="ratingvalue">5</span>
+		                <input id="stormseverity" name="storm-severity" type="range" max="10" min="1" step="1" value="5" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">&nbsp;&nbsp;&nbsp;<span id="ratingvalue">5</span>
                     </label><br><br>
 
 
                     <label for="stormregion">
                         <span class="label">Storm Region:</span>
-                        <select name="stormregion">
+                        <select id="stormregion" name="stormregion">
                             <option selected value="Select Region..." disabled>Select Region...</option>
                             <option value="Preston">Preston</option>
                             <option value="Soda Springs">Soda Springs</option>
@@ -92,15 +92,15 @@
                     </label><br><br>
 
                     <label for="indanger">
-                        <span class="label">Are you in danger?</span>
-                        <input name="indanger" type="radio" value="Yes">&nbsp;Yes&nbsp;&nbsp;</input>
-                        <input name="indanger" type="radio" value="Maybe">&nbsp;Maybe&nbsp;&nbsp;</input>
-                        <input name="indanger" type="radio" value="No">&nbsp;No&nbsp;&nbsp;</input>
+                        <span class="label">Are you in danger?</span><br>
+                        <input id="indanger" name="indanger" type="radio" value="Yes">&nbsp;Yes&nbsp;&nbsp;
+                        <input name="indanger" type="radio" value="Maybe">&nbsp;Maybe&nbsp;&nbsp;
+                        <input name="indanger" type="radio" value="No">&nbsp;No&nbsp;&nbsp;
                     </label><br><br>
 
                     <label for="additionalinformation">
                         <span class="label">Additional Information:</span>
-                        <textarea rows="1" cols="50" name="additionalinformation"></textarea>
+                        <textarea id="additionalinformation" rows="1" cols="50" name="additionalinformation"></textarea>
                     </label><br><br>
 
                     <input name="submission" type="submit" value="Submit">
