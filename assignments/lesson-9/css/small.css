@@ -315,3 +315,15 @@ footer {
         text-align: center;
         padding: 25px;
     }
+
+/* Home Page */
+    .town-data {
+        text-align: center;
+    }
+
+    .town-data section {
+        background-color: #6a8d73;
+        border: none;
+        margin: 15px;
+        padding: 15px;
+    }
