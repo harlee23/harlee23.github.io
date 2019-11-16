@@ -48,14 +48,13 @@
 		grid-column: span 2;
     }
 
-    .town-data {
-        text-align: center;
+    .town-data section {
+        display: flex;
     }
 
-    .town-data section {
-        background-color: #6a8d73;
-        border: none;
-        margin: 15px;
-        padding: 15px;
+    section.town-data-section:nth-child(even) {
+
+        flex-direction: row-reverse;
+
     }
 }
