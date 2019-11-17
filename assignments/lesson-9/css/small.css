@@ -343,3 +343,28 @@ footer {
     .town-data section p {
         font-family: 'Roboto Condensed', sans-serif;
     }
+
+    .wireframe {
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: center;
+    }
+
+    #wireframetitle {
+        text-align: center;
+    }
+
+    #wireframep {
+        padding-bottom: 30px;
+    }
+
+    #wireframelink {
+        list-style-type: none;
+        display: flex;
+    }
+
+    .wireframelistitem:link {
+        background-color: #157a6e;
+        color: #ffffff;
+        padding: 15px;
+        text-decoration: none;
+    }
