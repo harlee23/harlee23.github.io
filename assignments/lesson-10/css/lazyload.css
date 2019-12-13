@@ -1,0 +1,7 @@
+body {
+    font-family: 'Roboto Condensed';
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-auto-columns: 300px;
+}
