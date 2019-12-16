@@ -184,7 +184,7 @@ footer {
         font-size: .75em;
     }
 
-    #farming {
+    #farming, #lake, #wintercabin {
         width: 100%;
         height: auto;
         display: inline-block;
