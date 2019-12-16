@@ -183,12 +183,16 @@ footer {
     #source {
         font-size: .75em;
     }
-
+ 
     #farming, #lake, #wintercabin {
         width: 100%;
         height: auto;
         display: inline-block;
         padding-left: 15px;
+    }
+
+    #lake, #wintercabin {
+        padding-left: 0px;
     }
 
     #map {
