@@ -18,7 +18,7 @@
         display: block;
     }
 
-    #farming {
+    #farming, #lake, #wintercabin {
         width: 50%;
         height: auto;
         float: right;
