@@ -3,56 +3,56 @@
     box-sizing: border-box;
 }
 
-body {
-    font-size: 16px;
-    line-height: 32px;
-    color: #264653;
-}
+    body {
+        font-size: 16px;
+        line-height: 32px;
+        color: #264653;
+    }
 
-h1 {
-    font-size: 1.5rem;
-    text-align: left;
-    font-family: 'Darker Grotesque', 'sans-serif';
-}
+    h1 {
+        font-size: 1.5rem;
+        text-align: left;
+        font-family: 'Darker Grotesque', 'sans-serif';
+    }
 
-h2 {
-    font-size: 1rem;
-    text-align: left;
-    font-family: 'Darker Grotesque', sans-serif;
-}
+    h2 {
+        font-size: 1rem;
+        text-align: left;
+        font-family: 'Darker Grotesque', sans-serif;
+    }
 
-h3 {
-    font-size: .5rem;
-    text-align: left;
-    font-family: 'Darker Grotesque', sans-serif;
-}
+    h3 {
+        font-size: .5rem;
+        text-align: left;
+        font-family: 'Darker Grotesque', sans-serif;
+    }
 
-header {
-    background-color: #ffffff;
-}
+    header {
+        background-color: #ffffff;
+    }
 
-header,
-nav,
-main,
-footer {
-    margin: 1.25rem auto;
-    padding: .5rem;
-    max-width: 1000px;
-}
+    header,
+    nav,
+    main,
+    footer {
+        margin: 1.25rem auto;
+        padding: .5rem;
+        max-width: 1000px;
+    }
 
-header,
-footer,
-footer a {
-    text-align: center;
-}
+    header,
+    footer,
+    footer a {
+        text-align: center;
+    }
 
-footer {
-    color: #264253;
-    font-family: 'Darker Grotesque', sans-serif;
-    flex: 0 1 100%;
-    font-size: 1rem;
-    font-weight: bold;
-}
+    footer {
+        color: #264253;
+        font-family: 'Darker Grotesque', sans-serif;
+        flex: 0 1 100%;
+        font-size: 1rem;
+        font-weight: bold;
+    }
 
 /* Logo, Title, Tagline */
     #logo {

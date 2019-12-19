@@ -1,27 +1,45 @@
 @media only screen and (min-width: 32.5em){
 
+/* Logo and Title */
     #logo {
         width: 65px;
     }
 
     #title {
             font-size: 3rem;
-    
-    /* Main Navigation Styles */    
-    .navigation {
-        display: flex;
-        justify-content: space-around;
     }
-    
+
+/* Main Navigation Styles */
+    nav #collapse {
+        display: block;
+        color: #264653;
+    }
+
+    nav {
+        background-color: #ffffff;
+        align-items: center;
+    }
+
+    .navigation {
+        list-style: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
     .navigation li:first-child {
+        display: block;
+    }
+
+    .navigation li {
         display: none;
     }
-    
-    .navigation li {
+
+    .responsive li {
         display: block;
-        flex: 1 1 100%;
     }
-    
+  
+/* Other */    
     main {
         grid-template-columns: 1fr 1fr;
     }
@@ -34,4 +52,4 @@
         grid-column: span 2;
     }
     
-    }
+}
