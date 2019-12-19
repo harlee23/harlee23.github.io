@@ -1,5 +1,6 @@
 @media only screen and (min-width: 32.5em){
 
+/* Main Navigation Styles */    
 	.navigation {
         display: flex;
         justify-content: space-around;
@@ -14,32 +15,6 @@
         flex: 1 1 100%;
     }
     
-    .forecasttable {
-        display: block;
-    }
-
-    #farming {
-        width: 50%;
-        height: auto;
-        float: right;
-        padding-left: 15px;
-    }
-	
-	#map {
-        width: 300px;
-        height: 300px;
-        display: block;
-    }
-
-    .gallery {
-        align-content: center; 
-        grid-template-columns: 1fr 1fr;
-    }
-
-    main {
-		grid-template-columns: 1fr 1fr;
-	}
-
 	section:nth-child(2) {
 		display: block;
 	}
@@ -48,13 +23,4 @@
 		grid-column: span 2;
     }
 
-    .town-data section {
-        display: flex;
-    }
-
-    section.town-data-section:nth-child(even) {
-
-        flex-direction: row-reverse;
-
-    }
 }
