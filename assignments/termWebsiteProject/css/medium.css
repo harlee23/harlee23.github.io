@@ -39,6 +39,21 @@
         display: block;
     }
   
+/* Home Page */
+    #images {
+        text-align: center;
+        white-space: nowrap;
+        padding-top: 50px;
+    }
+
+    .tripleImageSpread {
+        display: inline-block;
+        align-items: center;
+        padding: 5px;
+        padding-bottom: 0px;
+        width: 30%
+    }
+
 /* Other */    
     main {
         grid-template-columns: 1fr 1fr;
