@@ -12,7 +12,7 @@ body {
 h1 {
     font-size: 1.5rem;
     text-align: left;
-    font-family: 'Charm', cursive;
+    font-family: 'Darker Grotesque', 'sans-serif';
 }
 
 h2 {
@@ -22,7 +22,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1rem;
+    font-size: .5rem;
     text-align: left;
     font-family: 'Darker Grotesque', sans-serif;
 }
