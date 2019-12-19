@@ -54,7 +54,7 @@ footer {
 }
 
 /* Logo, Title, Tagline */
-     #icon {
+     #logo {
         width: 50px;
     }
 
@@ -69,12 +69,6 @@ footer {
 
     #title {
         font-size: 4rem;
-    }
-
-    #tagline {
-        font-size: 1em;
-        line-height: .5em;
-        font-style: italic;
     }
 
 /* Main Navigation Styles */
