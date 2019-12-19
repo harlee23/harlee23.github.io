@@ -1,26 +1,30 @@
 @media only screen and (min-width: 32.5em){
 
 /* Main Navigation Styles */    
-	.navigation {
-        display: flex;
-        justify-content: space-around;
-    }
+.navigation {
+    display: flex;
+    justify-content: space-around;
+}
 
-    .navigation li:first-child {
-        display: none;
-    }
+.navigation li:first-child {
+    display: none;
+}
 
-    .navigation li {
-        display: block;
-        flex: 1 1 100%;
-    }
-    
-	section:nth-child(2) {
-		display: block;
-	}
+.navigation li {
+    display: block;
+    flex: 1 1 100%;
+}
 
-	section:nth-child(3) {
-		grid-column: span 2;
-    }
+main {
+    grid-template-columns: 1fr 1fr;
+}
+
+section:nth-child(2) {
+    display: block;
+}
+
+section:nth-child(3) {
+    grid-column: span 2;
+}
 
 }

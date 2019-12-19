@@ -51,24 +51,26 @@ footer {
     font-family: 'Darker Grotesque', sans-serif;
     flex: 0 1 100%;
     font-size: 1rem;
+    font-weight: bold;
 }
 
 /* Logo, Title, Tagline */
      #logo {
-        width: 50px;
+        width: 65px;
     }
 
     .heading {
-        font-family:'Charm', cursive;
         display: inline-block;
         vertical-align: bottom;
         text-align: center;
         padding-left: 30px;
-        padding-bottom: 20px;
+        padding-bottom: 18px;
     }
 
     #title {
-        font-size: 4rem;
+        font-size: 3.5rem;
+        font-family:'Charm', cursive;
+        font-style: italic;
     }
 
 /* Main Navigation Styles */
@@ -98,8 +100,9 @@ footer {
     }
 
     .navigation a {
+        background-color: #CACAAA;
         display: block;
-        color: #264653;
+        color: #ffffff;
         text-align: center;
         padding: .75rem;
         text-decoration: none;
@@ -113,7 +116,7 @@ footer {
     }
 
     li .active {
-        color: #000000;
+        color: #264653;
     }
 
     .responsive li {
