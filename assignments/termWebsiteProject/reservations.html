@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Temple Inn and Suites- Reservations</title>
+    <meta name="description" content="Temple Inn and Suites">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Charm|Darker+Grotesque|Maitree&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="images/temple-logo.png" alt="Temple Inn and Suites Logo">
+        <div class="heading">
+            <h1 id="title">Temple Inn and Suites</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a id=collapse href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="reservations.html" class="active">Reservations</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1 id="onlineReservationForm">Online Reservation Form</h1>
+        <div class="reservationForm">
+            <form action="thanks.html" method="get">
+                <label for="location">
+                        <span class="location">Location:</span>
+                        <select id="locationchoice" name="locationchoice" required>
+                            <option selected value="Select Location" disabled>Select Location</option>
+                            <option value="Boise">Boise</option>
+                            <option value="Idaho Falls">Idaho Falls</option>
+                            <option value="Twin Falls">Twin Falls</option>
+                            <option value="Rexburg">Rexburg</option>
+                        </select>
+                </label><br><br>
+
+                <label for="checkindate">
+                        <span class="label">Check In Date:</span>
+                        <input id="checkInDate" name="checkInDate" type="date" required>
+                </label><br><br>
+
+                <label for="checkoutdate">
+                        <span class="label">Check Out Date:</span>
+                        <input id="checkOutDate" name="checkOutDate" type="date" required>
+                    </label><br><br>
+
+                <label for="numberofrooms">
+                        <span class="numberOfRooms">Number of Rooms:</span>
+                        <input id="numberOfRooms" name="numberOfRooms" type="number" required>
+                </label><br><br>   
+                
+                <label for="roomType">
+                        <span class="roomType">Room Type:</span>
+                        <input id="roomType" name="roomType" list="roomTypes">
+                        <datalist id="roomTypes">
+                            <option selected value="Select Room Type" disabled>Select Room Type</option>
+                            <option value="Single Queen">Single Queen</option>
+                            <option value="Double Queen">Double Queen</option>
+                            <option value="Single King">Single King</option>
+                            <option value="Suite">Suite</option>
+                            <option value="Premier Suite">Premier Suite</option>
+                        </datalist>
+                </label><br><br>
+
+                <label for="fullname">
+                    <span class="label">Full Name:</span>
+                    <input pattern="[a-zA-Z ]{5,}" id="fullname" name="fullname" type="text" placeholder="Jane Doe" required>
+                </label><br><br>
+
+                <label for="email">
+                    <span class="label">Email:</span>
+                    <input id="email" name="email" type="email" placeholder="janedoe@gmail.com" required>
+                </label><br><br>
+
+                <label for="phonenumber">
+                    <span class="label">Phone Number:</span>
+                    <input id="phonenumber" name="phonenumber" type="tel" placeholder="5555555555" required>
+                </label><br><br>
+
+                <label for="address">
+                    <span class="address">State or Country:</span>
+                    <input id="address" name="address" type="address" placeholder="Idaho, USA" required>
+                </label><br><br>
+
+                <label for="additionalinformation">
+                    <span class="label">Additional Information:</span>
+                    <textarea id="additionalinformation" rows="1" cols="50" name="additionalinformation"></textarea>
+                </label><br><br>
+
+                <input name="submission" type="submit" value="Submit">
+            </form> 
+        </div>
+        
+        <div id="contact">
+            <h1 id="contactTitle">Contact Information</h1>
+            <p><b>Email:</b> contactus@templeinnandsuites.com</p>
+            <p><b>Phone:</b> (555)555-5555</p>
+            <p><b>Address:</b> 4800 Montgomery Ln #300 
+               <br>Bethesda, MD 20814</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2019 | Temple Inn and Suites | Website Created By: Harlee Dye</p>
+    </footer>
+
+    <script src="js/navigation.js"></script>
+
+</body>
+
+</html>

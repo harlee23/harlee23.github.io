@@ -60,7 +60,7 @@
 
 /* Logo, Title, Tagline */
     #logo {
-        width: 50px;
+        width: 55px;
     }
 
     .heading {
@@ -139,6 +139,7 @@
 
     #reservationLink {
         text-align: right;
+        margin-top: 10px;
     }
 
     a {
