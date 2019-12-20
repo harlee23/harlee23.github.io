@@ -210,6 +210,7 @@
         padding-bottom: 25px;
         margin: 50px;
         margin-top: 0px;
+        margin-bottom: 40px;
     }
 
     #reservation {
@@ -255,5 +256,9 @@
 /* Thank You */
     #thanks {
         text-align: center;
-        padding: 25px;
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-bottom: 35px;
+        font-size: 1.1em;
+        font-weight: bold;
     }
