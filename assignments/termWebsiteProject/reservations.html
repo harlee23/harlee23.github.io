@@ -37,74 +37,80 @@
         <h1 id="onlineReservationForm">Online Reservation Form</h1>
         <div class="reservationForm">
             <form action="thanks.html" method="get">
-                <label for="location">
-                        <span class="location">Location:</span>
-                        <select id="locationchoice" name="locationchoice" required>
-                            <option selected value="Select Location" disabled>Select Location</option>
-                            <option value="Boise">Boise</option>
-                            <option value="Idaho Falls">Idaho Falls</option>
-                            <option value="Twin Falls">Twin Falls</option>
-                            <option value="Rexburg">Rexburg</option>
-                        </select>
-                </label><br><br>
-
-                <label for="checkindate">
-                        <span class="label">Check In Date:</span>
-                        <input id="checkInDate" name="checkInDate" type="date" required>
-                </label><br><br>
-
-                <label for="checkoutdate">
-                        <span class="label">Check Out Date:</span>
-                        <input id="checkOutDate" name="checkOutDate" type="date" required>
+                
+                <div id="reservation">
+                    <label for="location">
+                            <span class="label">Location:</span>
+                            <select id="locationchoice" name="locationchoice" required>
+                                <option selected value="Select Location" disabled>Select Location</option>
+                                <option value="Boise">Boise</option>
+                                <option value="Idaho Falls">Idaho Falls</option>
+                                <option value="Twin Falls">Twin Falls</option>
+                                <option value="Rexburg">Rexburg</option>
+                            </select>
                     </label><br><br>
 
-                <label for="numberofrooms">
-                        <span class="numberOfRooms">Number of Rooms:</span>
-                        <input id="numberOfRooms" name="numberOfRooms" type="number" required>
-                </label><br><br>   
-                
-                <label for="roomType">
-                        <span class="roomType">Room Type:</span>
-                        <input id="roomType" name="roomType" list="roomTypes">
-                        <datalist id="roomTypes">
-                            <option selected value="Select Room Type" disabled>Select Room Type</option>
-                            <option value="Single Queen">Single Queen</option>
-                            <option value="Double Queen">Double Queen</option>
-                            <option value="Single King">Single King</option>
-                            <option value="Suite">Suite</option>
-                            <option value="Premier Suite">Premier Suite</option>
-                        </datalist>
-                </label><br><br>
+                    <label for="checkindate">
+                            <span class="label">Check In Date:</span>
+                            <input id="checkInDate" name="checkInDate" type="date" required>
+                    </label><br><br>
 
-                <label for="fullname">
-                    <span class="label">Full Name:</span>
-                    <input pattern="[a-zA-Z ]{5,}" id="fullname" name="fullname" type="text" placeholder="Jane Doe" required>
-                </label><br><br>
+                    <label for="checkoutdate">
+                            <span class="label">Check Out Date:</span>
+                            <input id="checkOutDate" name="checkOutDate" type="date" required>
+                        </label><br><br>
 
-                <label for="email">
-                    <span class="label">Email:</span>
-                    <input id="email" name="email" type="email" placeholder="janedoe@gmail.com" required>
-                </label><br><br>
+                    <label for="numberofrooms">
+                            <span class="label">Number of Rooms:</span>
+                            <input id="numberOfRooms" name="numberOfRooms" type="number" placeholder="2" required>
+                    </label><br><br>   
+                    
+                    <label for="roomType">
+                            <span class="label">Room Type:</span>
+                            <select id="roomType" name="roomType" required>
+                                <option selected value="Select Room Type" disabled>Select Room Type</option>
+                                <option value="Single Queen">Single Queen</option>
+                                <option value="Double Queen">Double Queen</option>
+                                <option value="Single King">Single King</option>
+                                <option value="Suite">Sutie</option>
+                                <option value="Premier Suite">Premier Suite</option>
+                            </select>
+                    </label><br><br>
+                </div>
 
-                <label for="phonenumber">
-                    <span class="label">Phone Number:</span>
-                    <input id="phonenumber" name="phonenumber" type="tel" placeholder="5555555555" required>
-                </label><br><br>
+                <div id="personal">
+                    <label for="fullname">
+                        <span class="label">Full Name:</span>
+                        <input pattern="[a-zA-Z ]{5,}" id="fullname" name="fullname" type="text" placeholder="Jane Doe" required>
+                    </label><br><br>
 
-                <label for="address">
-                    <span class="address">State or Country:</span>
-                    <input id="address" name="address" type="address" placeholder="Idaho, USA" required>
-                </label><br><br>
+                    <label for="email">
+                        <span class="label">Email:</span>
+                        <input id="email" name="email" type="email" placeholder="janedoe@gmail.com" required>
+                    </label><br><br>
 
-                <label for="additionalinformation">
-                    <span class="label">Additional Information:</span>
-                    <textarea id="additionalinformation" rows="1" cols="50" name="additionalinformation"></textarea>
-                </label><br><br>
+                    <label for="phonenumber">
+                        <span class="label">Phone Number:</span>
+                        <input id="phonenumber" name="phonenumber" type="tel" placeholder="(555)555-5555" required>
+                    </label><br><br>
 
-                <input name="submission" type="submit" value="Submit">
+                    <label for="address">
+                        <span class="label">State or Country:</span>
+                        <input id="address" name="address" type="address" placeholder="Idaho, USA" required>
+                    </label><br><br>
+
+                    <label for="comments">
+                        <span class="label">Comments:</span>
+                        <textarea id="comments" rows="1" cols="50" name="notes" placeholder="Special Accommodations or Other Comments"></textarea>
+                    </label><br><br>
+                </div>
+
+                <div class="button">
+                    <input id="button" name="submission" type="submit" value="Submit">
+                </div>
             </form> 
         </div>
-        
+    
         <div id="contact">
             <h1 id="contactTitle">Contact Information</h1>
             <p><b>Email:</b> contactus@templeinnandsuites.com</p>

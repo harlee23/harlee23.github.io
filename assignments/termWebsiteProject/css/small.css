@@ -195,3 +195,65 @@
         font-size: .8em;
         line-height: 1.75em;
     }
+
+/* Reservations Page */
+    #onlineReservationForm {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .reservationForm {
+        font-family: 'Darker Grotesque', 'sans-serif';
+        display: block;
+        padding: 50px;
+        padding-top: 0px;
+        padding-bottom: 25px;
+        margin: 50px;
+        margin-top: 0px;
+    }
+
+    #reservation {
+        border: solid 3px #264653;
+        padding: 15px;
+        padding-bottom: 0px;
+        margin: 15px;
+
+    }
+
+    #personal {
+        border: solid 3px #264653;
+        padding: 15px;
+        padding-bottom: 0px;
+        margin: 15px;
+    }
+
+    .reportform label {
+        display: flex;
+        width: 200px;
+    }
+
+    .label {
+        font-size: 1.25em;
+        font-weight: bold;
+    }
+
+    .button {
+        text-align: right;
+    }
+
+    #button {
+    background-color: #2A9D8F;
+    border: none;
+    font-size: 1.1em;
+    color: #ffffff;
+    padding: 10px;
+    padding-top: 7px;
+    font-weight: bold;
+    margin-right: 30px;
+    }
+
+/* Thank You */
+    #thanks {
+        text-align: center;
+        padding: 25px;
+    }
