@@ -51,6 +51,16 @@
 		display: flex;
 	}
 
+	/* Hidden Pages */
+    #hiddenLinks {
+        display: flex;
+	}
+	
+	/* Missionaries */
+	#listContact {
+		display: flex;
+	}
+
 /* Contact Page */    
 	.splitContact {
 		display: flex;

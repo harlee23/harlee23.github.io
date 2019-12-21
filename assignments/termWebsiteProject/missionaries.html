@@ -34,8 +34,57 @@
     </nav>
 
     <main>
+        <div id="images">
+                <img class="tripleImageSpread" src="images/sisters.jpg" alt="Sister Missionary Companionship">
+                <img class="tripleImageSpread" src="images/senior-couple.jpg" alt="Senior Missionary Couple">
+                <img class="tripleImageSpread" src="images/elders.jpg" alt="Elder Missionary Companionship">
+        </div>
 
-        
+        <div id="listContact">
+            <div class="serviceInfo">
+                    <h1>Suites Include:</h1>
+                    <ul>
+                        <li>1 and 2 bedroom options</li>
+                        <li>queen beds and desk in each room</li>
+                        <li>1 bathroom with bathtub and shower, as well as double sinks</li>
+                        <li>small kitchen with small oven, three-burner stove, microwave, mini-fridge, and sink</li>
+                        <li>living area with sleeper sofa and two lounge chairs</li>
+                    </ul>
+                </div>
+
+            <div id="missionary">
+                <h1 id="contactForm">Contact Us With Inquiries</h1>
+                <div class="contactForm">
+                    <form action="thanks.html" method="get">
+                        <div id="form">
+                            <label for="fullname">
+                                <span class="label">Full Name:</span>
+                                <input pattern="[a-zA-Z ]{5,}" id="fullname" name="fullname" type="text" placeholder="Jane Doe" required>
+                            </label><br><br>
+
+                            <label for="email">
+                                <span class="label">Email:</span>
+                                <input id="email" name="email" type="email" placeholder="janedoe@gmail.com" required>
+                            </label><br><br>
+
+                            <label for="phonenumber">
+                                <span class="label">Phone Number:</span>
+                                <input id="phonenumber" name="phonenumber" type="tel" placeholder="(555)555-5555">
+                            </label><br><br>
+
+                            <label for="message">
+                                <span class="label">Message:</span>
+                                <textarea id="message" rows="1" cols="50" name="notes" placeholder="Type your message here."></textarea>
+                            </label><br><br>
+                        </div>
+
+                        <div class="button">
+                            <input id="button" name="submission" type="submit" value="Submit">
+                        </div>
+                    </form> 
+                </div>
+            </div>
+        </div>
 
         <div id="contact">
             <h1 id="contactTitle">Contact Information</h1>

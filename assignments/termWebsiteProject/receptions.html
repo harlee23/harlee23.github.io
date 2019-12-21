@@ -34,7 +34,53 @@
     </nav>
 
     <main>
+        <div id="images">
+                <img id="wedding" src="images/wedding.jpg" alt="Just Married Couples In Front of Temple">
+        </div>
 
+        <div id="listContact">
+            <div class="serviceInfo">
+                    <h1>Reception Service Options:</h1>
+                    <ul>
+                        <li><b>Basic Venue Services-</b> These services include access to tables and chairs that can be setup and used by guests, as well as access to a full kitchen.</li>
+                        <li><b>Food Services-</b> Why stress about the food for the evening? Allow us the pleasure of catering your event with a variety of customizable menu options.</li>
+                        <li><b>Setup Services-</b> Eliminate the time it takes to setup and take down all the furniture and decor for your event. We have a crew ready to design the perfect event for you.</li>
+                    </ul>
+                </div>
+
+            <div id="missionary">
+                <h1 id="contactForm">Contact Us With Inquiries</h1>
+                <div class="contactForm">
+                    <form action="thanks.html" method="get">
+                        <div id="form">
+                            <label for="fullname">
+                                <span class="label">Full Name:</span>
+                                <input pattern="[a-zA-Z ]{5,}" id="fullname" name="fullname" type="text" placeholder="Jane Doe" required>
+                            </label><br><br>
+
+                            <label for="email">
+                                <span class="label">Email:</span>
+                                <input id="email" name="email" type="email" placeholder="janedoe@gmail.com" required>
+                            </label><br><br>
+
+                            <label for="phonenumber">
+                                <span class="label">Phone Number:</span>
+                                <input id="phonenumber" name="phonenumber" type="tel" placeholder="(555)555-5555">
+                            </label><br><br>
+
+                            <label for="message">
+                                <span class="label">Message:</span>
+                                <textarea id="message" rows="1" cols="50" name="notes" placeholder="Type your message here."></textarea>
+                            </label><br><br>
+                        </div>
+
+                        <div class="button">
+                            <input id="button" name="submission" type="submit" value="Submit">
+                        </div>
+                    </form> 
+                </div>
+            </div>
+        </div>
         
 
         <div id="contact">

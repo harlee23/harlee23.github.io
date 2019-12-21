@@ -68,6 +68,16 @@
         display: inline;
     }
 
+    /* Hidden Pages */
+    #hiddenLinks {
+        display: inline;
+    }
+
+    /* Missionaries */
+    #listContact {
+        display: inline;
+    }
+
 /* Contact Page */    
     .splitContact {
         display: inline;

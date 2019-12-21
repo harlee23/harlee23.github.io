@@ -230,9 +230,8 @@
         text-align: right;
         margin-top: 10px;
         padding-bottom: 40px;
+        font-weight: bold;
     }
-
-
 
 /* Reservations Page */
     #onlineReservationForm {
@@ -334,6 +333,33 @@
         padding-left: 50px;
         font-family: 'Darker Grotesque', 'sans-serif';
         font-size: 1.2em;
+    }
+
+    /* Hidden Pages */
+    #hiddenLinks {
+        display: inline;
+    }
+
+    .hiddenPage {
+        background-color: #E9C46A;
+        margin: 25px;
+        padding: 25px;
+        padding-top: 5px;
+    }
+
+    .hiddenPageLink {
+        text-align: right;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    /* Missionaries */
+    #listContact {
+        display: inline;
+    }
+
+    #missionary {
+        padding-top: 70px;
     }
 
 /* Contact Page */    
