@@ -301,6 +301,41 @@
         font-weight: bold;
     }
 
+/* Services */
+    .familyHistoryPhoto {
+        text-align: center;
+        padding: 25px;
+    }
+
+    .babysittingPhoto {
+        text-align: center;
+        padding: 25px;
+    }
+
+    .services {
+        width: 65%;
+    }
+
+    #amenities {
+        padding: 50px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        display: inline;
+    }
+
+    #services {
+        padding: 50px;
+        padding-top: 0px;
+        padding-bottom: 40px;
+        display: inline;
+    }
+
+    .serviceInfo {
+        padding-left: 50px;
+        font-family: 'Darker Grotesque', 'sans-serif';
+        font-size: 1.2em;
+    }
+
 /* Contact Page */    
     .splitContact {
         display: inline;

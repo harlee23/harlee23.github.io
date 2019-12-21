@@ -59,6 +59,15 @@
         display: inline;
     }
 
+/* Services */
+    #amenities {
+        display: inline;
+    }
+
+    #services {
+        display: inline;
+    }
+
 /* Contact Page */    
     .splitContact {
         display: inline;

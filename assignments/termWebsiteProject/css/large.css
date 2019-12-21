@@ -18,7 +18,38 @@
 /* Temples Page */
     .temple {
         display: flex;
-    }
+	}
+	
+/* Services */
+	.familyHistoryPhoto {
+		text-align: center;
+		padding: 25px;
+		margin-top: 25px;
+	}
+
+	.babysittingPhoto {
+		text-align: center;
+		padding: 25px;
+		margin-top: 85px;
+	}
+
+	.services {
+		width: 450px;
+	}
+
+	#amenities {
+		padding: 25px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		display: flex;
+	}
+
+	#services {
+		padding: 25px;
+		padding-top: 0px;
+		padding-bottom: 40px;
+		display: flex;
+	}
 
 /* Contact Page */    
 	.splitContact {
