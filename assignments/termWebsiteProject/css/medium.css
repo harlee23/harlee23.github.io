@@ -54,6 +54,21 @@
         width: 30%
     }
 
+/* Temples Page */
+    .temple {
+        display: inline;
+    }
+
+/* Contact Page */    
+    .splitContact {
+        display: inline;
+    }
+
+    .googleMap {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
 /* Other */    
     main {
         grid-template-columns: 1fr 1fr;

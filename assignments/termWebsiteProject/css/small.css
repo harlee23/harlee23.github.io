@@ -196,6 +196,44 @@
         line-height: 1.75em;
     }
 
+/* Temples Page */
+    #temples {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .temple {
+        display: inline;
+    }
+
+    .templePhotos {
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .templeInfo {
+        padding: 15px;
+    }
+
+    .templeName {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 35px;
+        padding-left: 35px;
+    }
+
+    .templeParagraph {
+        padding-left: 35px;
+    }
+
+    .informationLink {
+        text-align: right;
+        margin-top: 10px;
+        padding-bottom: 40px;
+    }
+
+
+
 /* Reservations Page */
     #onlineReservationForm {
         text-align: center;
@@ -253,7 +291,7 @@
     margin-right: 30px;
     }
 
-/* Thank You */
+/* Thank You and Thanks */
     #thanks {
         text-align: center;
         padding-left: 150px;
@@ -261,4 +299,46 @@
         padding-bottom: 35px;
         font-size: 1.1em;
         font-weight: bold;
+    }
+
+/* Contact Page */    
+    .splitContact {
+        display: inline;
+    }
+
+    #contactForm {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .contactForm {
+        font-family: 'Darker Grotesque', 'sans-serif';
+        display: block;
+        padding: 25px;
+        padding-top: 0px;
+        padding-bottom: 25px;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    #form {
+        border: solid 3px #264653;
+        padding: 15px;
+        padding-bottom: 0px;
+        margin: 15px;
+    }
+
+    .contact label {
+        display: flex;
+        width: 200px;
+    }
+
+    .form {
+        font-size: 1.25em;
+        font-weight: bold;
+    }
+
+    .googleMap {
+        text-align: center;
+        padding-bottom: 40px;
     }
